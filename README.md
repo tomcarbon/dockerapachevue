@@ -10,4 +10,5 @@ Prerequisites:
      deconstruct this script for your docker commands as appropriate.
 
 3) your port 80 must be open
+
 Run the script "doit" (options b, then r) to build and run this website, which should then be accessible via the browser at 'localhost'.
