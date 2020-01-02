@@ -1,4 +1,3 @@
-Chamberlain-West.org - repository of physics and economics white papers.
 
 Here is a website that runs on localhost port 80, using docker, apache, vue, and php.
 
