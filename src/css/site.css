@@ -35,18 +35,18 @@ body {
 	color:		white;
 	font-weight: 	bolder;
 }
-#tec-cv {
+#intro-screen {
 	position:	relative;
 	top:		160px;
 	text-align: 	left;
 }
-#economicsapp {
+#app2 {
 	position:	relative;
 	top:		160px;
 	display:	none;
 	text-align: 	left;
 }
-#physicsapp {
+#app1 {
 	position:	relative;
 	top:		160px;
 	display:	none;
