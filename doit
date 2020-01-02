@@ -1,11 +1,11 @@
 #!/bin/bash
-echo "Welcome to the quicker docker builder for chamberlain-west !"
+echo "Welcome to the quicker docker builder for 'sample website' !"
 read -p "Press b to build, r to run or n/q to quit, and hit enter: " rc
 case "$rc" in
-	b)  docker build -t chamberlain-west .;;
+	b)  docker build -t dockerapachevue .;;
 	r)  echo "       Did you remember to stop the previously running container?"
 	    echo "       (to stop a container: 'docker ps' to get the [containerID[, then 'docker stop [containerId]')"
-		docker run -d -p 80:80 chamberlain-west;;
+		docker run -d -p 80:80 dockerapachevue;;
 	n) exit;;
 	q) exit;;
 esac
